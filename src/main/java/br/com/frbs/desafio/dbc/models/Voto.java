@@ -16,7 +16,7 @@ public class Voto {
 
 	private Integer associadoId;
 
-	private char voto;
+	private String voto;
 
 	public Integer getIdVoto() {
 		return idVoto;
@@ -42,11 +42,11 @@ public class Voto {
 		this.associadoId = associadoId;
 	}
 
-	public char getVoto() {
+	public String getVoto() {
 		return voto;
 	}
 
-	public void setVoto(char voto) {
+	public void setVoto(String voto) {
 		this.voto = voto;
 	}
 
